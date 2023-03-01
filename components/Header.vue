@@ -1,7 +1,7 @@
 <template>
   <header>
     <h2>Scrapbox graph</h2>
-    <select v-model="project" @change="onChange">
+    <select v-model="project">
       <option>help-jp</option>
       <option>comic-forum</option>
       <option>icons</option>

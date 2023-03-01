@@ -52,6 +52,8 @@ export function useGraph() {
     return edges;
   });
 
+  console.log('fetching project graph data...');
+
   const fetchData = async project => {
     const { data: graph } = await useFetch(
       `https://sb-graph-kondoumh.netlify.app/${encodeURIComponent(project)}_graph.json`, 
